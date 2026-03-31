@@ -5,7 +5,7 @@ A modern, responsive **Car Showcase Website** built with React. Users can browse
 ---
 
 ## 🔗 Live Demo
-👉 [https://car-showcase-liard-beta.vercel.app/]
+👉 https://car-showcase-liard-beta.vercel.app/
 
 ---
 

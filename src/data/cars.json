@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "name": "Toyota Tacoma TRD",
+    "image": "/assets/car1.jpg",
+    "price": 450,
+    "currency": "USD",
+    "price_period": "day",
+    "location": "Manchester, England",
+    "rating": 4.8,
+    "reviews_count": 124,
+    "category": "SUVs",
+    "specs": {
+      "mileage": "36,400",
+      "fuel_type": "Diesel",
+      "transmission": "Automatic",
+      "seats": "7 Seats",
+      "bags": "3 Large bags",
+      "doors": "4 Doors",
+      "consumption": "12.5L"
+    },
+    "description": "Engineered for those who refuse to let the pavement define their journey, the Toyota Tacoma TRD stands as a titan of versatility. This rugged masterpiece combines legendary off-road capability with a refined interior that ensures comfort even in the harshest environments. Featuring a high-performance suspension system and a reinforced chassis, the Tacoma is designed to tackle rocky trails and urban jungles alike. Inside, you'll find a tech-forward cabin that keeps you connected and safe, making every expedition as seamless as it is thrilling. Whether you're hauling gear for a weekend getaway or navigating city streets, the Tacoma TRD delivers an unmatched blend of power, reliability, and bold styling that commands respect on every road.",
+    "badge": "Best Sale"
+  },
+  {
+    "id": 2,
+    "name": "Seltos K3",
+    "image": "/assets/car2.jpg",
+    "price": 320,
+    "currency": "USD",
+    "price_period": "day",
+    "location": "London, UK",
+    "rating": 0,
+    "reviews_count": 0,
+    "category": "Compact SUV",
+    "specs": {
+      "mileage": "12,000",
+      "fuel_type": "Petrol",
+      "transmission": "Automatic",
+      "seats": "5 Seats",
+      "bags": "2 Large bags",
+      "doors": "4 Doors",
+      "consumption": "8.5L"
+    },
+   "description": "Introducing the epitome of modern sophistication in the realm of compact SUVs – the Seltos K3. Dressed in a captivating blue hue that exudes elegance and flair, this dynamic vehicle stands as a testament to innovation and style. With its sleek design accentuated by striking dark wheels, the Seltos K3 is not merely a mode of transportation but a statement of refined taste and contemporary living. Prepare to embark on a journey where cutting-edge technology meets unparalleled comfort, all wrapped in a package of unparalleled aesthetics. Join us as we delve into the world of the Seltos K3, where every detail is crafted to elevate your driving experience to new heights of luxury and performance.",
+    "badge": "New Arrival"
+  },
+  {
+    "id": 3,
+    "name": "BMW M4 Competition",
+    "image": "/assets/car3.jpg",
+    "price": 850,
+    "currency": "USD",
+    "price_period": "day",
+    "location": "Birmingham, UK",
+    "rating": 4.9,
+    "reviews_count": 86,
+    "category": "Sport",
+    "specs": {
+      "mileage": "5,200",
+      "fuel_type": "Petrol",
+      "transmission": "Automatic",
+      "seats": "4 Seats",
+      "bags": "1 Large bag",
+      "doors": "2 Doors",
+      "consumption": "14.2L"
+    },
+    "description": "The BMW M4 Competition is a masterpiece of automotive engineering, designed to blur the line between a daily driver and a professional track machine. Underneath its sculpted, aggressive hood lies a twin-turbocharged straight-six engine that delivers breathtaking acceleration and a roar that resonates with pure power. Every curve of its aerodynamic body is meticulously crafted to reduce drag and increase downforce, while the interior is a cockpit of high-tech luxury, featuring carbon fiber accents and body-hugging sport seats. This isn't just a car; it's a precision instrument built for those who demand the highest level of performance, offering a visceral driving experience that turns every commute into a high-octane adventure.",
+    "badge": "Featured"
+  },
+  {
+    "id": 4,
+    "name": "Tesla Model Y",
+    "image": "/assets/car4.jpg",
+    "price": 400,
+    "currency": "USD",
+    "price_period": "day",
+    "location": "Liverpool, UK",
+    "rating": 4.7,
+    "reviews_count": 210,
+    "category": "Electric",
+    "specs": {
+      "mileage": "18,600",
+      "fuel_type": "Electric",
+      "transmission": "Automatic",
+      "seats": "5 Seats",
+      "bags": "3 Large bags",
+      "doors": "4 Doors",
+      "consumption": "0L"
+    },
+    "description": "Welcome to the future of mobility with the Tesla Model Y, where sustainable energy meets high-end luxury. This all-electric crossover redefines what it means to drive, offering instant torque for rapid acceleration and a low center of gravity that provides exceptional handling. The interior is a masterclass in minimalism, dominated by a stunning 15-inch touchscreen that controls everything from navigation to entertainment. With its expansive glass roof, the cabin feels airy and open, providing a panoramic view of the world around you. Beyond its beauty, the Model Y is one of the safest vehicles on the road, equipped with advanced Autopilot features that provide peace of mind while reducing the stress of long-distance travel.",
+    "badge": "Eco Friendly"
+  },
+  {
+    "id": 5,
+    "name": "Land Rover Defender",
+    "image": "/assets/car5.jpg",
+    "price": 600,
+    "currency": "USD",
+    "price_period": "day",
+    "location": "Edinburgh, Scotland",
+    "rating": 4.6,
+    "reviews_count": 45,
+    "category": "Off-road",
+    "specs": {
+      "mileage": "22,100",
+      "fuel_type": "Diesel",
+      "transmission": "Automatic",
+      "seats": "7 Seats",
+      "bags": "4 Large bags",
+      "doors": "4 Doors",
+      "consumption": "15.0L"
+    },
+    "description": "Reimagined for the 21st century, the Land Rover Defender is an icon reborn, staying true to its heritage while embracing modern luxury and tech. It is arguably the most capable off-road vehicle ever built, featuring a permanent all-wheel-drive system and a high-clearance design that can navigate water, mud, and sand with ease. But the Defender is just as comfortable on the highway as it is in the wilderness; its cabin is a sanctuary of premium materials and quiet refinement. Whether you are exploring the Scottish Highlands or navigating an urban landscape, the Defender offers a unique sense of confidence and rugged sophistication that few other vehicles can match. It is the ultimate tool for the modern explorer.",
+    "badge": "Adventure"
+  },
+  {
+    "id": 6,
+    "name": "Audi A6 Avant",
+    "image": "/assets/car6.jpg",
+    "price": 380,
+    "currency": "USD",
+    "price_period": "day",
+    "location": "Manchester, England",
+    "rating": 4.5,
+    "reviews_count": 62,
+    "category": "Luxury",
+    "specs": {
+      "mileage": "41,000",
+      "fuel_type": "Hybrid",
+      "transmission": "Automatic",
+      "seats": "5 Seats",
+      "bags": "3 Large bags",
+      "doors": "5 Doors",
+      "consumption": "6.2L"
+    },
+    "description": "The Audi A6 Avant is the perfect synthesis of executive elegance and functional versatility. Designed for those who appreciate the finer things in life but require the space of a wagon, the Avant offers a sleek, elongated profile that stands out in any parking lot. Inside, the Virtual Cockpit and dual-touchscreen interface provide a futuristic control center that is both intuitive and visually stunning. The hybrid powertrain ensures a smooth, quiet ride with improved fuel efficiency, making it an ideal choice for long-distance cruising or high-stakes business travel. With its spacious cargo area and premium leather upholstery, the A6 Avant ensures that every passenger travels in first-class comfort, regardless of the destination.",
+    "badge": "Popular"
+  }
+]

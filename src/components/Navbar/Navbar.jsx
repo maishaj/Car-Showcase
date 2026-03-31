@@ -9,23 +9,23 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Contact Us", href: "/contact" },
+    {name: "Explore", href:"#vehicles"},
+    { name: "Contact Us", href: "#contact" },
   ];
 
   return (
-    <nav className="text-black sticky top-0 z-50 shadow-lg">
+    <nav className="text-black sticky top-0 z-1000 shadow-lg">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center gap-3 z-10">
+          <div className="flex items-center justify-center gap-3 z-10">
             <Image
               src={"/assets/CarLogoo.jpg"}
-              width={50}
-              height={50}
+              width={45}
+              height={45}
               alt="car-logo"
             />
-            <span className="text-2xl font-bold tracking-tighter text-primary">
+            <span className="text-2xl font-bold tracking-tighter">
               Driftly
             </span>
           </div>
@@ -65,7 +65,6 @@ const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       <div
-        // className={`${isOpen ? "block" : "hidden"} md:hidden`}
         className={`
         ${isOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'} 
         md:hidden fixed top-10 right-4 w-40 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md 

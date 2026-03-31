@@ -6,15 +6,15 @@ import { Filter, Search } from 'lucide-react';
 
 const CarListings = () => {
 
-    // 1. State for filters
+    
     const [searchTerm, setSearchTerm] = useState("");
     const [selectedBrand, setSelectedBrand] = useState("All");
-    const [maxPrice, setMaxPrice] = useState(300000);
+    const [maxPrice, setMaxPrice] = useState(30000);
 
-    // 2. Logic to get unique brands for the dropdown
+   
     const brands = ["All", ...new Set(carData.map(car => car.name))];
 
-    // 3. Filter Engine
+    
     const filteredCars = carData.filter((car) => {
         const matchesName = car.name.toLowerCase().includes(searchTerm.toLowerCase());
         const matchesBrand = selectedBrand === "All" || car.name === selectedBrand;
@@ -22,6 +22,7 @@ const CarListings = () => {
         
         return matchesName && matchesBrand && matchesPrice;
     });
+
 
     return (
        <div className="px-4">
@@ -31,7 +32,7 @@ const CarListings = () => {
                     <p className="text-gray-500 text-lg">The world's leading car brands.</p>
                 </div>
 
-                <div className="flex flex-wrap gap-4 items-center justify-between">
+                <div className="hidden md:flex flex-wrap gap-4 items-center justify-between">
                         {/* Search Input */}
                         <div className="relative group">
                             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-[#3BB77E]" size={18} />
@@ -66,8 +67,8 @@ const CarListings = () => {
                                 <input 
                                     type="range" 
                                     min="0" 
-                                    max="300000" 
-                                    step="1000"
+                                    max="30000" 
+                                    step="50"
                                     value={maxPrice}
                                     onChange={(e) => setMaxPrice(Number(e.target.value))}
                                     className="h-1.5 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-[#3BB77E]"
@@ -76,17 +77,19 @@ const CarListings = () => {
                        </div>
                 </div>
 
-               {/* --- Results Grid --- */}
+               
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-5">
-                    {filteredCars.length > 0 ? (
+                    {filteredCars.length > 0 ? 
+                    (
                         filteredCars.map((car) => (
                             <LatestCars key={car.id} car={car} />
                         ))
-                    ) : (
+                    ) : 
+                    (
                         <div className="col-span-full py-20 text-center border-2 border-dashed border-gray-200 rounded-[3rem]">
                             <p className="text-xl font-bold text-gray-400">No vehicles match your filters.</p>
                             <button 
-                                onClick={() => {setSearchTerm(""); setSelectedBrand("All"); setMaxPrice(300000);}}
+                                onClick={() => {setSearchTerm(""); setSelectedBrand("All"); setMaxPrice(30000);}}
                                 className="mt-4 text-[#3BB77E] font-bold underline"
                             >
                                 Reset all filters

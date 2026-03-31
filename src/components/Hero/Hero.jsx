@@ -19,7 +19,7 @@ const slides = [
         image: "/assets/HeroImage1.jpg", 
         title: "Precision Engineering",
         description: "Experience the pinnacle of automotive performance and Italian craftsmanship.",
-        link: "/inventory/supercars",
+        link: "#vehicles",
         btnText: "Browse Cars",
         btnClass: "bg-red-600 hover:bg-red-700"
     },
@@ -28,7 +28,7 @@ const slides = [
         image: "/assets/HeroImage2.jpg", 
         title: "Conquer Any Terrain",
         description: "Built for the bold. Rugged capability meets uncompromising luxury for your next adventure.",
-        link: "/inventory/off-road",
+        link: "#vehicles",
         btnText: "View Off-Roaders",
         btnClass: "bg-stone-800 hover:bg-black" 
     },
@@ -37,7 +37,7 @@ const slides = [
         image: "/assets/HeroImage3.jpg", // Suggested: Modern EV or clean interior shot
         title: "The Future is Electric",
         description: "Sustainable luxury without compromise. Discover the next generation of driving.",
-        link: "/inventory/electric",
+        link: "#vehicles",
         btnText: "Go Electric",
         btnClass: "bg-blue-600 hover:bg-blue-700"
     }

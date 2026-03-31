@@ -1,6 +1,8 @@
-import { Geist, Geist_Mono, Raleway, Roboto_Slab } from "next/font/google";
+import {Raleway} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/footer";
+import { Toaster } from "react-hot-toast";
 
 
 const RalewayFont=Raleway({
@@ -25,6 +27,11 @@ export default function RootLayout({ children }) {
         <main>
           {children}
         </main>
+        <Footer></Footer>
+        <Toaster
+          position="top-center"
+          reverseOrder={false}
+        />
       </body>
     </html>
   );

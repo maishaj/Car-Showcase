@@ -14,11 +14,12 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="text-black sticky top-0 z-1000 shadow-lg">
+    <nav className="text-blackbg-white shadow-lg">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
+          
           {/* Logo */}
-          <div className="flex items-center justify-center gap-3 z-10">
+          <Link href={"/"} className="flex items-center justify-center gap-3 z-10">
             <Image
               src={"/assets/CarLogoo.jpg"}
               width={45}
@@ -28,7 +29,7 @@ const Navbar = () => {
             <span className="text-2xl font-bold tracking-tighter">
               Driftly
             </span>
-          </div>
+          </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex absolute inset-0 items-center justify-center">

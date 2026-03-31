@@ -33,7 +33,7 @@ const CarListings = () => {
                 </div>
 
                 <div className="hidden md:flex flex-wrap gap-4 items-center justify-between">
-                        {/* Search Input */}
+                        {/* Search */}
                         <div className="relative group">
                             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-[#3BB77E]" size={18} />
                             <input 
@@ -45,7 +45,7 @@ const CarListings = () => {
                         </div>
 
                        <div className='flex gap-5'>
-                            {/* Brand Dropdown */}
+                            {/* Brand */}
                             <div className="relative">
                                 <Filter className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={16} />
                                 <select 

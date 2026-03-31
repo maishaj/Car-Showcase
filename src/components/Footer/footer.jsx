@@ -7,7 +7,6 @@ const Footer = () => {
     <footer className="w-full bg-black py-12 border-t border-gray-200 mt-10">
       <div className="max-w-7xl mx-auto px-6 md:px-20">
         
-        {/* Main Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
           
           {/* Brand Column */}

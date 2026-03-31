@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       className={`${RalewayFont.className} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <header>
+        <header className="sticky top-0 z-50 bg-white">
           <Navbar></Navbar>
         </header>
         <main>

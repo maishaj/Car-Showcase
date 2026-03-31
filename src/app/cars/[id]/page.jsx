@@ -95,7 +95,7 @@ const FeatureItem = ({ icon, label, value }) => (
     <div className="flex flex-col gap-2">
         <div className="text-gray-300">{icon}</div>
         <div>
-            <p className="text-xs text-gray-400 uppercase font-bold tracking-tighter">{label}</p>
+            <p className="text-xs text-gray-400 uppercase font-bold">{label}</p>
             <p className="text-md font-bold text-gray-800">{value}</p>
         </div>
     </div>

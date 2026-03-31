@@ -19,11 +19,13 @@ const LatestCars = ({ car }) => {
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 
-                {car.badge && (
-                    <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm px-4 py-1.5 rounded-xl shadow-sm">
-                        <span className="text-[#3BB77E] font-bold text-sm">{car?.badge}</span>
-                    </div>
-                )}
+                {
+                    car.badge && (
+                        <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm px-4 py-1.5 rounded-xl shadow-sm">
+                            <span className="text-[#3BB77E] font-bold text-sm">{car?.badge}</span>
+                        </div>
+                    )
+                }
 
             
                 <div className="absolute -bottom-2 right-4 bg-white shadow-md px-4 py-2 rounded-xl flex items-center gap-2 border border-gray-50 z-10 transition-transform group-hover:scale-105">

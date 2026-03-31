@@ -4,7 +4,6 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-// Import Swiper React components and styles
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
 
@@ -34,7 +33,7 @@ const slides = [
     },
     {
         id: 3,
-        image: "/assets/HeroImage3.jpg", // Suggested: Modern EV or clean interior shot
+        image: "/assets/HeroImage3.jpg", 
         title: "The Future is Electric",
         description: "Sustainable luxury without compromise. Discover the next generation of driving.",
         link: "#vehicles",
